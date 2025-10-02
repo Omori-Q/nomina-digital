@@ -19,7 +19,7 @@ public class Asistencia {
     private LocalDate fecha;
     private LocalTime horaEntrada;
     private LocalTime horaSalida;
-    private Double horasTrabajadas;
+    private String horasTrabajadas;
 
     public Integer getIdAsistencia() {
         return idAsistencia;
@@ -61,11 +61,11 @@ public class Asistencia {
         this.horaSalida = horaSalida;
     }
 
-    public Double getHorasTrabajadas() {
+    public String getHorasTrabajadas() {
         return horasTrabajadas;
     }
 
-    public void setHorasTrabajadas(Double horasTrabajadas) {
+    public void setHorasTrabajadas(String horasTrabajadas) {
         this.horasTrabajadas = horasTrabajadas;
     }
 }
